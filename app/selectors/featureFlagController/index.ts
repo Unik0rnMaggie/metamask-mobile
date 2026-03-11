@@ -37,3 +37,4 @@ export const selectRawRemoteFeatureFlags = createSelector(
   (remoteFeatureFlagControllerState) =>
     remoteFeatureFlagControllerState?.rawRemoteFeatureFlags ?? {},
 );
+// test: remoteFeatureFlags?.myFakeTestFlag
